@@ -5,7 +5,7 @@ import MainHeader from "./components/layout/MainHeader";
 import Profile from "./components/layout/Profile";
 
 // Pages
-import Portfolio from "./components/pages/portfolio/Portfolio";
+import Portfolio from "./components/pages/Portfolio";
 
 function App() {
   return (

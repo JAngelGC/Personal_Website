@@ -2,6 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  /* flex-wrap: wrap; */
   gap: 2.6rem;
 
   height: 200vh;
@@ -30,4 +31,9 @@
     rgba(249, 233, 0, 0.5) 0%,
     rgba(218, 65, 103, 0.5) 100%
   );
+}
+
+.container-content {
+  /* width: 100%; */
+  width: 80rem;
 }

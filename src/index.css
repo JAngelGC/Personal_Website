@@ -43,5 +43,7 @@ html {
 }
 
 .title-section {
+  margin-top: 5rem;
   font-size: var(--fs-sub-sub-title);
+  width: 100%;
 }

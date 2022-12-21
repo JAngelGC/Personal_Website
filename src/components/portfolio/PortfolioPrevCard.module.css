@@ -1,0 +1,26 @@
+.container-project-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 4rem;
+  height: 300px;
+  width: 47.5%;
+
+  overflow: hidden;
+  border: var(--main-border);
+  border-radius: var(--main-border-radius);
+}
+
+.container-project-card img {
+  width: 100%;
+  object-fit: cover;
+
+  height: 85%;
+}
+
+.container-project-card p {
+  text-align: center;
+  margin: auto auto;
+  font-size: var(--fs-mid-text);
+}
