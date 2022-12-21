@@ -1,0 +1,100 @@
+.container-profile-ext {
+  /* background-color: violet; */
+}
+
+.container-profile-ext .container-profile {
+  /* background-color: var(--main-bg-color); */
+
+  width: 32rem;
+  position: sticky;
+  /* position: -webkit-sticky; */
+  top: 2rem;
+  /* left: 600px; */
+}
+
+.container-persona-info {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 10%; */
+
+  border-radius: 1.8rem;
+  border: 1px solid var(--main-border-color);
+  background-color: var(--main-bg-color);
+}
+
+.container-persona-info img {
+  width: 100px;
+  border-radius: 100%;
+
+  border: 1px solid #2d2d2d;
+}
+
+.container-persona-info h1 {
+  width: 60%;
+  font-size: var(--fs-big-text);
+  font-weight: 700;
+  text-align: center;
+
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container-persona-info h2 {
+  width: 100%;
+  font-size: var(--fs-mid-text);
+  font-weight: 600;
+  text-align: center;
+}
+
+.container-social-networks {
+  margin: 3rem 0;
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+
+  border-radius: 1.8rem;
+  border: 1px solid var(--main-border-color);
+}
+
+.container-social-networks .container-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+
+  border-radius: 100%;
+  border: 1px solid var(--main-border-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-social-networks .icon-social-network {
+  width: 50%;
+  height: 50%;
+}
+
+.container-skills {
+  border-radius: 1.8rem;
+  border: 1px solid var(--main-border-color);
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-skills span {
+  font-size: var(--fs-small-text);
+  font-size: var(--fs-small-text);
+  padding: 0.5rem 1rem;
+  margin: 1rem 2rem;
+
+  border-radius: var(--main-border-radius);
+  /* border-radius: 1.8rem; */
+  background: rgba(118, 177, 255, 0.1);
+}

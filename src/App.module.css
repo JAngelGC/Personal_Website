@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: flex;
+  height: 200vh;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding-top: 10rem;
+
+  /* background-color: yellowgreen; */
+}
+
+.box-gradient-ext {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+}
+
+.box-gradient-ext .box-gradient-int {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    90deg,
+    rgba(249, 233, 0, 0.5) 0%,
+    rgba(218, 65, 103, 0.5) 100%
+  );
+}
