@@ -1,6 +1,9 @@
 .container {
   position: relative;
   display: flex;
+  justify-content: center;
+  gap: 2.6rem;
+
   height: 200vh;
   max-width: 1200px;
   margin: 0 auto;

@@ -1,8 +1,9 @@
 // import { NavLink } from "react-router-dom"
+import classes from "./MainHeader.module.css";
 
 const MainHeader = () => {
   return (
-    <header>
+    <header className={classes["header"]}>
       <nav>
         <ul>
           <li>Portfolio</li>

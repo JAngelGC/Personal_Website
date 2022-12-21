@@ -1,8 +1,11 @@
 import React from "react";
 import classes from "./App.module.css";
 
-import MainHeader from "./components/MainHeader";
+import MainHeader from "./components/layout/MainHeader";
 import Profile from "./components/layout/Profile";
+
+// Pages
+import Portfolio from "./components/pages/portfolio/Portfolio";
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
       </div>
       <div className={classes["container"]}>
         <Profile />
-        <MainHeader />
+        <div className={classes["container-content"]}>
+          <MainHeader />
+          <Portfolio />
+        </div>
       </div>
     </>
   );
