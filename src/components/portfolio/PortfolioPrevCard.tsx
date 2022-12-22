@@ -1,16 +1,21 @@
+import { Link } from "react-router-dom";
+
 import classes from "./PortfolioPrevCard.module.css";
 
 const PortfolioPrevCard: React.FC<{
   name: string;
   img: string;
-  link: string;
+  id: number;
 }> = (props) => {
-  console.log(props);
+  // console.log(props);
   return (
-    <div className={classes["container-project-card"]}>
+    <Link
+      to={`/portfolio/${props.id}`}
+      className={classes["container-project-card"]}
+    >
       <img src={`/static/images/prevs/${props.img}`} alt="" />
       <p>{props.name}</p>
-    </div>
+    </Link>
   );
 };
 

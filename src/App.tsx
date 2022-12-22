@@ -5,7 +5,11 @@ import MainHeader from "./components/layout/MainHeader";
 import Profile from "./components/layout/Profile";
 
 // Pages
-import Portfolio from "./components/pages/Portfolio";
+import PortfolioPage from "./components/pages/PortfolioPage";
+import ProjectPage from "./components/pages/ProjectPage";
+
+// Router
+import { Route, Routes, Navigate } from "react-router";
 
 function App() {
   return (
@@ -17,7 +21,12 @@ function App() {
         <Profile />
         <div className={classes["container-content"]}>
           <MainHeader />
-          <Portfolio />
+          {/* <Portfolio /> */}
+          <Routes>
+            <Route path="/" element={<Navigate replace to="/portfolio" />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/portfolio/:projectId" element={<ProjectPage />} />
+          </Routes>
         </div>
       </div>
     </>
