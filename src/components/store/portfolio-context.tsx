@@ -22,8 +22,10 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
       bulletPoints: [
-        "Designed from scratch a mockup in Figma",
+        "Designed from scratch a mockup in Figma of the website following my own ideas.",
         "Applied responsive design best practices to adjust the content to any device",
+        "Used Firebase services to save all the contact information that the users send on the website",
+        "Implemented routing using pages, so it can result in better performance and SEO.",
       ],
       imgs: ["path1", "path2"],
     },

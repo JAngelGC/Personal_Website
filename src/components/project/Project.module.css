@@ -1,2 +1,48 @@
 .container-project {
+  /* background-color: yellowgreen; */
+}
+
+.container-subtitles {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.container-subtitles .subtitle {
+  font-size: var(--fs-small-text);
+  padding: 1rem 2rem;
+
+  background-color: var(--sec-bg-color);
+  border-radius: var(--sec-border-radius);
+}
+
+.paragraph {
+  font-size: var(--fs-mid-text);
+}
+
+.container-bullets {
+  margin-top: 1rem;
+}
+
+.container-bullets li {
+  margin-left: 3rem;
+  margin-top: 0rem;
+
+  font-size: var(--fs-small-text);
+  padding: 0.3rem 0;
+}
+
+.container-imgs {
+  width: 100%;
+  margin-top: 2.5rem;
+  padding-bottom: 2.5rem;
+
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.container-imgs img {
+  width: 80%;
 }
