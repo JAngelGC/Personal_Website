@@ -8,7 +8,7 @@ import classes from "./Project.module.css";
 const Project = () => {
   const portfolioCtx = useContext(PortfolioContext);
 
-  console.log("PORTFOLIO ", portfolioCtx);
+  // console.log("PORTFOLIO ", portfolioCtx);
   const params = useParams<{ projectId: string }>();
   let projectId: string = params.projectId!;
   projectId = projectId.length > 0 ? projectId : "0";

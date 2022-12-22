@@ -10,6 +10,9 @@
   overflow: hidden;
   border: var(--main-border);
   border-radius: var(--main-border-radius);
+
+  text-decoration: none;
+  color: var(--white-color);
 }
 
 .container-project-card img {

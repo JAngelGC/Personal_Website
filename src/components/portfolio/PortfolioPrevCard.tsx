@@ -7,7 +7,6 @@ const PortfolioPrevCard: React.FC<{
   img: string;
   id: number;
 }> = (props) => {
-  // console.log(props);
   return (
     <Link
       to={`/portfolio/${props.id}`}

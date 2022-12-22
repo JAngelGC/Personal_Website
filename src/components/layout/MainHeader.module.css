@@ -35,3 +35,12 @@
   border-radius: var(--main-border-radius);
   background-color: var(--sec-bg-color);
 }
+
+.header nav ul li > * {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.header nav ul .link-active {
+  background-color: #006dff;
+}

@@ -42,6 +42,7 @@ const PortfolioGrid = () => {
             name={project.name}
             img={project.img}
             id={project.id}
+            key={project.id}
           />
         );
       })}
