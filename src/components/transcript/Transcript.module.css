@@ -1,0 +1,39 @@
+.button {
+  display: block;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  font-size: var(--fs-small-text);
+  border-radius: var(--sec-border-radius);
+}
+
+.major {
+  text-align: center;
+  font-size: var(--fs-big-text);
+}
+
+.school {
+  text-align: center;
+  font-size: var(--fs-mid-text);
+}
+
+.container-headers {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+
+  font-size: var(--fs-mid-text);
+  /* text-align: center; */
+}
+
+.container-headers .class {
+  width: 60%;
+}
+
+.container-headers .grade {
+  width: 20%;
+  /* background-color: yellowgreen; */
+}
+
+.container-headers .school {
+  width: 20%;
+}
