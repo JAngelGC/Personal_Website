@@ -32,7 +32,7 @@
   text-align: center;
 
   cursor: pointer;
-  border-radius: var(--main-border-radius);
+  border-radius: var(--sec-border-radius);
   background-color: var(--sec-bg-color);
 }
 
