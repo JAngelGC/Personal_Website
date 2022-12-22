@@ -1,0 +1,55 @@
+.container-content {
+  /* width: 100%; */
+  /* background-color: violet; */
+}
+
+.button {
+  display: block;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  font-size: var(--fs-small-text);
+  border-radius: var(--sec-border-radius);
+}
+
+.img-square {
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  /* border-radius: var(--main-border-radius); */
+  border-radius: var(--sec-border-radius);
+}
+
+.title-section {
+  font-size: var(--fs-sub-sub-title);
+  margin-top: 2rem;
+}
+
+.title-experience {
+  font-size: var(--fs-mid-text);
+  padding: 0.5rem 0;
+}
+
+.subtitle-experience {
+  font-size: var(--fs-small-text);
+  padding: 0.3rem 0;
+}
+
+.text-experience {
+  font-size: var(--fs-small-text);
+  padding: 0.3rem 0;
+}
+
+.bottom-line {
+  height: 0.15rem;
+  background-color: var(--main-border-color);
+  border: 0;
+}
+
+/* .section-education {
+  display: flex;
+  align-items: center;
+} */
+
+/* SECTION EXPERIENCE */

@@ -33,6 +33,7 @@ html {
   --main-border-color: #5f6368;
 
   --main-border-radius: 1.8rem;
+  --sec-border-radius: 1rem;
   --main-border: 1px solid var(--main-border-color);
 }
 
