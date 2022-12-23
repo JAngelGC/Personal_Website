@@ -14,6 +14,8 @@ import AboutMePage from "./components/pages/AboutMePage";
 // Router
 import { Route, Routes, Navigate } from "react-router";
 
+import ScrollToTop from "./components/tools/ScrollToTop";
+
 function App() {
   return (
     <>
@@ -24,7 +26,8 @@ function App() {
         <Profile />
         <div className={classes["container-content"]}>
           <MainHeader />
-          {/* <Portfolio /> */}
+
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Navigate replace to="/portfolio" />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
