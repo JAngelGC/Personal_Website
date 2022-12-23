@@ -2,6 +2,11 @@
   /* background-color: yellowgreen; */
 }
 
+.date {
+  margin-top: 0.5rem;
+  font-size: var(--fs-small-text);
+}
+
 .container-subtitles {
   display: flex;
   gap: 2rem;
@@ -9,11 +14,8 @@
 }
 
 .container-subtitles .subtitle {
-  font-size: var(--fs-small-text);
-  padding: 1rem 2rem;
-
-  background-color: var(--sec-bg-color);
-  border-radius: var(--sec-border-radius);
+  color: #34e4ea;
+  background: rgba(52, 228, 234, 0.1);
 }
 
 .paragraph {
@@ -30,6 +32,40 @@
 
   font-size: var(--fs-mid-small-text);
   padding: 0.3rem 0;
+}
+
+.container-links {
+  margin: var(--margin-up-down) 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: var(--fs-small-text);
+}
+
+.container-links .link {
+  margin: 1rem 0;
+  margin-right: 2rem;
+
+  /* font-weight: 600; */
+  color: #34e4ea;
+  background: rgba(52, 228, 234, 0.1);
+
+  /* color: #2bc016;
+  color: rgb(43, 192, 22); */
+
+  color: rgb(209, 226, 49);
+  background: rgba(209, 226, 49, 0.1);
+
+  /* color: rgb(20, 129, 186);
+  background: rgba(20, 129, 186, 0.1); */
+}
+
+.container-links .link-github {
+}
+
+.container-links .link-youtube {
+}
+
+.container-links .link-page {
 }
 
 .container-imgs {

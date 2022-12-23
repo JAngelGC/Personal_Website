@@ -1,0 +1,11 @@
+.span {
+  font-weight: 500;
+  font-size: var(--fs-small-text);
+
+  padding: 1rem 2rem;
+
+  border-radius: var(--sec-border-radius);
+
+  color: rgb(21, 139, 203);
+  background: rgba(20, 129, 186, 0.075);
+}

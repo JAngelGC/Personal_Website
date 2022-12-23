@@ -82,15 +82,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+  padding: 1rem;
 }
 
 .container-skills span {
-  font-size: var(--fs-small-text);
-  font-size: var(--fs-small-text);
-  padding: 0.5rem 1rem;
-  margin: 1rem 2rem;
-
-  border-radius: var(--main-border-radius);
-  /* border-radius: 1.8rem; */
-  background: rgba(118, 177, 255, 0.1);
+  margin: 1.5rem 1rem;
+  padding: 0.75rem 1rem;
 }

@@ -3,10 +3,16 @@ import React from "react";
 type ProjectContextObj = {
   id: number;
   title: string;
+  date: string;
   subtitles: string[];
   paragraph: string;
   bulletPoints: string[];
   imgs: string[];
+  links: {
+    github?: string;
+    youtube?: string;
+    page?: string;
+  };
 };
 
 type Props = { children: React.ReactNode };
@@ -18,6 +24,7 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
     {
       id: 0,
       title: "Mezcal Website",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -28,10 +35,16 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Implemented routing using pages, so it can result in better performance and SEO.",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube: "https://www.youtube.com/channel/",
+        page: "https://www.google.com",
+      },
     },
     {
       id: 1,
       title: "Multi-agent system",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -40,10 +53,17 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Applied responsive design best practices to adjust the content to any device",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube:
+          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
+        page: "https://www.google.com",
+      },
     },
     {
       id: 2,
       title: "Chatbot",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -52,10 +72,17 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Applied responsive design best practices to adjust the content to any device",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube:
+          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
+        page: "https://www.google.com",
+      },
     },
     {
       id: 3,
       title: "Alerta Can",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -64,10 +91,17 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Applied responsive design best practices to adjust the content to any device",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube:
+          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
+        page: "https://www.google.com",
+      },
     },
     {
       id: 4,
       title: "Pergolas",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -76,10 +110,17 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Applied responsive design best practices to adjust the content to any device",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube:
+          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
+        page: "https://www.google.com",
+      },
     },
     {
       id: 5,
       title: "Syntax Highlighter",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -88,10 +129,17 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Applied responsive design best practices to adjust the content to any device",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube:
+          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
+        page: "https://www.google.com",
+      },
     },
     {
       id: 6,
       title: "Weather App",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -100,10 +148,17 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Applied responsive design best practices to adjust the content to any device",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube:
+          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
+        page: "https://www.google.com",
+      },
     },
     {
       id: 7,
       title: "Pokedex",
+      date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
         "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
@@ -112,6 +167,12 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         "Applied responsive design best practices to adjust the content to any device",
       ],
       imgs: ["path1", "path2"],
+      links: {
+        github: "https://github.com/JAngelGC",
+        youtube:
+          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
+        page: "https://www.google.com",
+      },
     },
   ];
 

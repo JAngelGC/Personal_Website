@@ -1,3 +1,4 @@
+import Span from "../ui/Span";
 import classes from "./Profile.module.css";
 
 const Profile = () => {
@@ -35,11 +36,12 @@ const Profile = () => {
         </div>
 
         <div className={classes["container-skills"]}>
-          <span>FrontEnd</span>
-          <span>Python</span>
-          <span>C++</span>
-          <span>React</span>
-          <span>Node JS</span>
+          <Span text="Frontend" />
+          <Span text="Python" />
+          <Span text="C++" />
+          <Span text="React Js" />
+          <Span text="Node Js" />
+          <Span text="MongoDB" />
         </div>
       </section>
     </div>
