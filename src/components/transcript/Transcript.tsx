@@ -6,7 +6,10 @@ import classes from "./Transcript.module.css";
 const Transcript = () => {
   return (
     <>
-      <Button text="Download transcript" classesProps={classes["button"]} />
+      <Button
+        text="Download transcript"
+        classesProps={classes["button-download"]}
+      />
 
       <h2 className={classes["major"]}>
         B.S. in Computer Science and Information Technology (ICT)
@@ -62,6 +65,8 @@ const Transcript = () => {
         ]}
       />
 
+      <hr className={classes["bottom-line"]} />
+
       <TranscriptSemester
         title="2nd Semester (January - June 2021)"
         subjects={[
@@ -113,6 +118,8 @@ const Transcript = () => {
         ]}
       />
 
+      <hr className={classes["bottom-line"]} />
+
       <TranscriptSemester
         title="3rd Semester (August - December 2021)"
         subjects={[
@@ -154,6 +161,8 @@ const Transcript = () => {
         ]}
       />
 
+      <hr className={classes["bottom-line"]} />
+
       <TranscriptSemester
         title="4th Semester (February - June 2022)"
         subjects={[
@@ -180,6 +189,8 @@ const Transcript = () => {
         ]}
       />
 
+      <hr className={classes["bottom-line"]} />
+
       <TranscriptSemester
         title="5th Semester (August - December 2022)"
         subjects={[
@@ -205,6 +216,8 @@ const Transcript = () => {
           },
         ]}
       />
+
+      <hr className={classes["bottom-line"]} />
     </>
   );
 };

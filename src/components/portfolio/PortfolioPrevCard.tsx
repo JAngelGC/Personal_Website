@@ -13,7 +13,9 @@ const PortfolioPrevCard: React.FC<{
       className={classes["container-project-card"]}
     >
       <img src={`/static/images/prevs/${props.img}`} alt="" />
-      <p>{props.name}</p>
+      <div className={classes["container-text"]}>
+        <p>{props.name}</p>
+      </div>
     </Link>
   );
 };

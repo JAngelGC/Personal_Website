@@ -1,5 +1,6 @@
 .table-semester {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
+  margin: var(--margin-up-down) 0;
   width: 100%;
   font-size: var(--fs-small-text);
   /* background-color: yellowgreen; */
@@ -8,6 +9,7 @@
 .table-title {
   width: 100%;
   font-size: var(--fs-mid-text);
+
   font-weight: 600;
 
   /* background-color: turquoise; */
@@ -23,10 +25,13 @@
   /* background-color: yellowgreen; */
 }
 .table-grade {
+  font-weight: 600;
   width: 20%;
+  text-align: center;
   /* background-color: aquamarine; */
 }
 .table-credits {
   width: 20%;
+  text-align: center;
   /* background-color: tomato; */
 }

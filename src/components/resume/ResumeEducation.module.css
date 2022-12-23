@@ -1,7 +1,8 @@
 .container-education {
   display: flex;
   flex-wrap: wrap;
-  margin: 3rem 0;
+  align-items: center;
+  margin: var(--margin-up-down) 0;
 }
 
 .img-square {
@@ -14,18 +15,15 @@
   border-radius: var(--sec-border-radius);
 }
 
-.title-section {
-  font-size: var(--fs-sub-sub-title);
-  margin-top: 2rem;
-}
-
 .title-experience {
   font-size: var(--fs-mid-text);
+  font-weight: 600;
   padding: 0.5rem 0;
 }
 
 .subtitle-experience {
   font-size: var(--fs-small-text);
+  font-weight: 500;
   padding: 0.3rem 0;
 }
 

@@ -1,10 +1,10 @@
 .container-bullets {
-  margin: 3rem 0;
+  margin: var(--margin-up-down) 0;
 }
 
 .text-experience {
   margin-left: 2rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 
   font-size: var(--fs-small-text);
   padding: 0.3rem 0;

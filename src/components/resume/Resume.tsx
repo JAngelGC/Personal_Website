@@ -8,7 +8,10 @@ import ResumeBullets from "./ResumeBullets";
 const Resume = () => {
   return (
     <section className={classes["container-content"]}>
-      <Button text="Download resume" classesProps={classes["button"]}></Button>
+      <Button
+        text="Download resume"
+        classesProps={classes["button-download"]}
+      ></Button>
 
       <div className={classes["section-education"]}>
         <h3 className={classes["title-section"]}>Education</h3>

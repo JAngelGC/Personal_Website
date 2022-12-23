@@ -1,15 +1,19 @@
 .container-content {
   /* width: 100%; */
   /* background-color: violet; */
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
 }
 
-.button {
-  margin: 4rem auto;
+.button-download {
+  font-size: var(--fs-small-text);
+  /* margin: 3rem auto; */
+
+  /* background-color: yellowgreen; */
 }
 
 .title-section {
-  font-size: var(--fs-sub-sub-title);
+  font-size: var(--fs-subtitle);
+  font-weight: 600;
   margin-top: 2rem;
 }
 
