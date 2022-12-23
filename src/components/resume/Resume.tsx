@@ -1,5 +1,6 @@
 import classes from "./Resume.module.css";
 
+import Button from "../ui/Button";
 import ResumeEducation from "./ResumeEducation";
 import ResumeExperience from "./ResumeExperience";
 import ResumeBullets from "./ResumeBullets";
@@ -7,7 +8,7 @@ import ResumeBullets from "./ResumeBullets";
 const Resume = () => {
   return (
     <section className={classes["container-content"]}>
-      <button className={classes["button"]}>Download resume</button>
+      <Button text="Download resume" classesProps={classes["button"]}></Button>
 
       <div className={classes["section-education"]}>
         <h3 className={classes["title-section"]}>Education</h3>

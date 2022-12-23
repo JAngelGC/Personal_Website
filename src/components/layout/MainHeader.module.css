@@ -25,18 +25,14 @@
   list-style: none;
 }
 
-.header nav ul li {
+.button {
   min-width: 15rem;
   padding: 1rem 2rem;
   font-size: var(--fs-mid-text);
   text-align: center;
-
-  cursor: pointer;
-  border-radius: var(--sec-border-radius);
-  background-color: var(--sec-bg-color);
 }
 
-.header nav ul li > * {
+.header nav ul > * {
   text-decoration: none;
   color: var(--white-color);
 }

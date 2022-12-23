@@ -1,9 +1,5 @@
 .button {
-  display: block;
   margin: 4rem auto;
-  padding: 1rem 2rem;
-  font-size: var(--fs-small-text);
-  border-radius: var(--sec-border-radius);
 }
 
 .major {

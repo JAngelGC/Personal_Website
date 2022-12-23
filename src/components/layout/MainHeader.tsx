@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import classes from "./MainHeader.module.css";
 
+import Button from "../ui/Button";
+
 const MainHeader = () => {
   const urlPath = useLocation();
   console.log(urlPath);
@@ -23,18 +25,41 @@ const MainHeader = () => {
     <header className={classes["header"]}>
       <nav>
         <ul>
-          <li className={`${classes[checkSelected("portfolio")]}`}>
-            <Link to="/portfolio">Portfolio</Link>
-          </li>
-          <li className={`${classes[checkSelected("resume")]}`}>
-            <Link to="/resume">Resume</Link>
-          </li>
-          <li className={`${classes[checkSelected("transcript")]}`}>
-            <Link to="/transcript">Transcript</Link>
-          </li>
-          <li className={`${classes[checkSelected("about-me")]}`}>
-            <Link to="/about-me">About me</Link>
-          </li>
+          <Link to="/portfolio">
+            <Button
+              text="Portfolio"
+              classesProps={`${classes[checkSelected("portfolio")]} ${
+                classes["button"]
+              }`}
+            />
+          </Link>
+
+          <Link to="/resume">
+            <Button
+              text="Resume"
+              classesProps={`${classes[checkSelected("resume")]} ${
+                classes["button"]
+              }`}
+            />
+          </Link>
+
+          <Link to="/transcript">
+            <Button
+              text="Transcript"
+              classesProps={`${classes[checkSelected("transcript")]} ${
+                classes["button"]
+              }`}
+            />
+          </Link>
+
+          <Link to="/about-me">
+            <Button
+              text="About Me"
+              classesProps={`${classes[checkSelected("about-me")]} ${
+                classes["button"]
+              }`}
+            />
+          </Link>
         </ul>
       </nav>
     </header>
