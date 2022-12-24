@@ -74,6 +74,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.container-social-networks .container-icon:hover {
+  background-color: #292929;
 }
 
 .container-social-networks .icon-social-network {
