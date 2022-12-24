@@ -4,8 +4,8 @@ const ResumeExperience: React.FC<{
   img: string;
   title: string;
   date: string;
-  text: string;
-  bullets: string[];
+  text?: string;
+  bullets?: string[];
 }> = (props) => {
   return (
     <div className={classes["container-experience"]}>
@@ -21,15 +21,16 @@ const ResumeExperience: React.FC<{
       <div className={classes["box-text"]}>
         <p className={classes["text-experience"]}>{props.text}</p>
         <ul>
-          {props.bullets.map((bullet) => {
-            return (
-              <li
-                className={`${classes["text-experience"]} ${classes["text-experience-bullet"]}`}
-              >
-                {bullet}
-              </li>
-            );
-          })}
+          {props.bullets &&
+            props.bullets.map((bullet) => {
+              return (
+                <li
+                  className={`${classes["text-experience"]} ${classes["text-experience-bullet"]}`}
+                >
+                  {bullet}
+                </li>
+              );
+            })}
         </ul>
       </div>
     </div>
