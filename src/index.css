@@ -11,6 +11,7 @@ html {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   color: #f3f3f3;
+  line-height: 1.5;
 
   background-color: var(--main-bg-color);
 }
@@ -53,4 +54,13 @@ html {
   margin-top: 8rem;
   font-size: var(--fs-title);
   width: 100%;
+}
+
+/**************************/
+/* BELOW 940px /  tablets */
+/**************************/
+@media (max-width: 59em) {
+  .title-section {
+    margin-top: 5rem;
+  }
 }

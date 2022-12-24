@@ -23,7 +23,7 @@ function App() {
         <div className={classes["box-gradient-int"]}></div>
       </div>
       <div className={classes["container"]}>
-        <Profile />
+        <Profile classesProps={classes["container-profile"]} />
         <div className={classes["container-content"]}>
           <MainHeader />
 

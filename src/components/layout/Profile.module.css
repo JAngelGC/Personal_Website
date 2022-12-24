@@ -1,16 +1,22 @@
 .container-profile-ext {
+  /* width: 34%; */
   /* background-color: violet; */
 }
 
 .container-profile-ext .container-profile {
   width: 32rem;
+  /* width: 100%; */
   position: sticky;
   position: -webkit-sticky;
   top: 2rem;
 }
 
 .container-persona-info {
-  height: 25rem;
+  /* height: 25rem; */
+
+  height: auto;
+  padding: 3rem 0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +35,7 @@
 }
 
 .container-persona-info h1 {
-  width: 60%;
+  width: 80%;
   font-size: var(--fs-big-text);
   font-weight: 600;
   text-align: center;
@@ -39,7 +45,7 @@
 }
 
 .container-persona-info h2 {
-  width: 100%;
+  width: 90%;
   font-size: var(--fs-mid-text);
   font-weight: 300;
   text-align: center;
@@ -52,7 +58,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15%;
+  gap: 10%;
 
   border-radius: 1.8rem;
   border: 1px solid var(--main-border-color);
@@ -89,4 +95,42 @@
 .container-skills span {
   margin: 1.5rem 1rem;
   padding: 0.75rem 1rem;
+}
+
+/**************************/
+/* BELOW 1200px /landscape tablets */
+/**************************/
+@media (max-width: 75em) {
+  .container-profile-ext .container-profile {
+    width: 100%;
+  }
+
+  .container-persona-info {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .container-skills span {
+    font-weight: 600;
+    margin: 1rem 1rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+/**************************/
+/* BELOW 940px /  tablets */
+/**************************/
+@media (max-width: 59em) {
+  /* .container-profile-ext .container-profile {
+    position: relative;
+  } */
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .container-persona-info img {
+    width: 75px;
+  }
 }

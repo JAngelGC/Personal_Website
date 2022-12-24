@@ -22,16 +22,32 @@
 
 .table-subject {
   width: 60%;
-  /* background-color: yellowgreen; */
 }
+
 .table-grade {
   font-weight: 600;
   width: 20%;
   text-align: center;
-  /* background-color: aquamarine; */
 }
+
 .table-credits {
   width: 20%;
   text-align: center;
-  /* background-color: tomato; */
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .table-subject {
+    width: 50%;
+  }
+
+  .table-grade {
+    width: 25%;
+  }
+
+  .table-credits {
+    width: 25%;
+  }
 }

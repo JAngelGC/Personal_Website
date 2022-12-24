@@ -20,7 +20,7 @@ const Transcript = () => {
 
       <div className={classes["container-headers"]}>
         <p className={classes["class"]}>Class</p>
-        <p className={classes["grade"]}>Grade (Percentage)</p>
+        <p className={classes["grade"]}>Grade </p>
         <p className={classes["credits"]}>Credits</p>
       </div>
 

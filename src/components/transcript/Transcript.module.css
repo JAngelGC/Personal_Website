@@ -32,18 +32,31 @@
 
 .container-headers .grade {
   width: 20%;
-
-  /* text-align: center; */
-  /* background-color: yellowgreen; */
 }
 
 .container-headers .credits {
   width: 20%;
-  /* text-align: center; */
 }
 
 .bottom-line {
   height: 0.15rem;
   background-color: var(--main-border-color);
   border: 0;
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .container-headers .class {
+    width: 50%;
+  }
+
+  .container-headers .grade {
+    width: 25%;
+  }
+
+  .container-headers .credits {
+    width: 25%;
+  }
 }

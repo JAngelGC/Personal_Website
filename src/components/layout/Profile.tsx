@@ -1,9 +1,11 @@
 import Span from "../ui/Span";
 import classes from "./Profile.module.css";
 
-const Profile = () => {
+const Profile: React.FC<{ classesProps: string }> = (props) => {
   return (
-    <div className={classes["container-profile-ext"]}>
+    <div
+      className={`${classes["container-profile-ext"]} ${props.classesProps}`}
+    >
       <section className={classes["container-profile"]}>
         <div className={classes["container-persona-info"]}>
           <img src="/static/images/me.png" alt="" />
