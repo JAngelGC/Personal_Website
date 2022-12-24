@@ -1,5 +1,12 @@
+import AboutMe from "../about/AboutMe";
+
 const AboutMePage = () => {
-  return <h1 className="title-section">ABOUT ME PAGE</h1>;
+  return (
+    <>
+      <h1 className="title-section">About me</h1>
+      <AboutMe />
+    </>
+  );
 };
 
 export default AboutMePage;

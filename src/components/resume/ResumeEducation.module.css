@@ -20,18 +20,17 @@
 .title-experience {
   font-size: var(--fs-mid-text);
   font-weight: 600;
-  padding: 0.5rem 0;
 }
 
 .subtitle-experience {
-  font-size: var(--fs-small-text);
+  font-size: var(--fs-mid-small-text);
   font-weight: 500;
-  padding: 0.3rem 0;
+
+  padding-bottom: 1rem;
 }
 
 .text-experience {
   font-size: var(--fs-small-text);
-  padding: 0.3rem 0;
 }
 
 .bottom-line {

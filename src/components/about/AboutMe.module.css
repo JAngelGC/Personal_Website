@@ -1,0 +1,8 @@
+.section-about-me {
+  min-height: 50vh;
+}
+
+.text {
+  margin-top: 3rem;
+  font-size: var(--fs-mid-small-text);
+}
