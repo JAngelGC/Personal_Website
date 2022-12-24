@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import classes from "./Resume.module.css";
 
 import Button from "../ui/Button";
@@ -8,10 +9,12 @@ import ResumeBullets from "./ResumeBullets";
 const Resume = () => {
   return (
     <section className={classes["container-content"]}>
-      <Button
-        text="Download resume"
-        classesProps={classes["button-download"]}
-      ></Button>
+      <Link to="/files/JAngelGonzalez_CV.pdf" target="_blank" download>
+        <Button
+          text="Download resume"
+          classesProps={classes["button-download"]}
+        ></Button>
+      </Link>
 
       <div className={classes["section-education"]}>
         <h3 className={classes["title-section"]}>Education</h3>

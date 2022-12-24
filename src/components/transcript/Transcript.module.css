@@ -1,3 +1,7 @@
+.container-content a {
+  text-decoration: none;
+}
+
 .button-download {
   margin: 4rem auto;
   font-size: var(--fs-small-text);

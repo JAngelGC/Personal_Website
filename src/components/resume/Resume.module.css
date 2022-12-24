@@ -4,6 +4,10 @@
   /* padding-bottom: 5rem; */
 }
 
+.container-content a {
+  text-decoration: none;
+}
+
 .button-download {
   font-size: var(--fs-small-text);
   margin: 4rem auto;

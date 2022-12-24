@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import TranscriptSemester from "./TranscriptSemester";
 import Button from "../ui/Button";
 
@@ -5,11 +6,17 @@ import classes from "./Transcript.module.css";
 
 const Transcript = () => {
   return (
-    <>
-      <Button
-        text="Download transcript"
-        classesProps={classes["button-download"]}
-      />
+    <section className={classes["container-content"]}>
+      <Link
+        to="/files/JAngelGonzalez_unofficial_transcript.pdf"
+        target="_blank"
+        download
+      >
+        <Button
+          text="Download transcript"
+          classesProps={classes["button-download"]}
+        />
+      </Link>
 
       <h2 className={classes["major"]}>
         B.S. in Computer Science and Information Technology (ICT)
@@ -218,7 +225,7 @@ const Transcript = () => {
       />
 
       <hr className={classes["bottom-line"]} />
-    </>
+    </section>
   );
 };
 
