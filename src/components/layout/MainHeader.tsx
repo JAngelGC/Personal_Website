@@ -6,7 +6,7 @@ import Button from "../ui/Button";
 
 const MainHeader = () => {
   const urlPath = useLocation();
-  console.log(urlPath);
+
   const [selectedPage, setSelectedPage] = useState(urlPath.pathname);
 
   const checkSelected = (page: string) => {

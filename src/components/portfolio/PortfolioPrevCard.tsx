@@ -12,7 +12,7 @@ const PortfolioPrevCard: React.FC<{
       to={`/portfolio/${props.id}`}
       className={classes["container-project-card"]}
     >
-      <img src={`/static/images/prevs/${props.img}`} alt="" />
+      <img src={`/static/images/projects${props.img}`} alt="" />
       <div className={classes["container-text"]}>
         <p>{props.name}</p>
       </div>

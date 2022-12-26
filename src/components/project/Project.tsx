@@ -17,7 +17,7 @@ const Project = () => {
 
   const project = portfolioCtx[projectIdNum];
 
-  console.log("--------------------", project);
+  // console.log("--------------------", project);
 
   return (
     <section className={classes["container-project"]}>
@@ -53,7 +53,7 @@ const Project = () => {
       </div>
 
       <div className={classes["container-imgs"]}>
-        {["mezcal_1.png", "mezcal_2.png", "mezcal_3.png"].map((img) => {
+        {project.imgs.map((img) => {
           return <img src={`/static/images/projects/${img}`} alt="" />;
         })}
       </div>
