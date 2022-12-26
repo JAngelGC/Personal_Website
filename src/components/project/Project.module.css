@@ -42,22 +42,24 @@
   font-size: var(--fs-small-text);
 }
 
-.container-links .link {
-  margin: 1rem 0;
+.container-links .container-link {
+  display: block;
+  margin: 1.5rem 0;
   margin-right: 2rem;
+}
 
-  /* font-weight: 600; */
-  color: #34e4ea;
-  background: rgba(52, 228, 234, 0.1);
+.container-links .container-link:focus {
+  text-decoration: none;
+}
 
-  /* color: #2bc016;
-  color: rgb(43, 192, 22); */
-
-  color: rgb(209, 226, 49);
+.container-links .container-link .link {
+  color: #d1e231;
   background: rgba(209, 226, 49, 0.1);
+  transition: all 0.1s ease-in;
+}
 
-  /* color: rgb(20, 129, 186);
-  background: rgba(20, 129, 186, 0.1); */
+.container-links .container-link .link:hover {
+  background: rgba(209, 226, 49, 0.15);
 }
 
 .container-links .link-github {

@@ -41,7 +41,16 @@ const Project = () => {
       <div className={classes["container-links"]}>
         {project.links &&
           Object.entries(project.links).map(([key, value]) => {
-            return <Span classesProps={classes["link"]} text={value} />;
+            return (
+              <a
+                href={value}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes["container-link"]}
+              >
+                <Span classesProps={classes["link"]} text={value} />
+              </a>
+            );
             // if (key === "github")
             //   return <p className={classes["link-github"]}>{value}</p>;
 
