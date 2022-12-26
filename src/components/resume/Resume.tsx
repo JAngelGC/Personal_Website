@@ -48,6 +48,17 @@ const Resume = () => {
             "I’m in charge of 15 students and I help them in whatever I can, including programming classes.",
           ]}
         />
+
+        <ResumeExperience
+          img="paeLogo.png"
+          title="Programa Asesor Estudiante"
+          date="August 2022 - December 2022"
+          bullets={[
+            "I imparted weekly tutoring sessions on any Computer Science subject to freshman students.",
+            "I was in charge of conducting three English classes per month to primary school students.",
+          ]}
+        />
+
         <ResumeExperience
           img="tecbytesLogo.png"
           title="TecBytes"

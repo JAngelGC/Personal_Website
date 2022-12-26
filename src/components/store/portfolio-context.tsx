@@ -75,7 +75,7 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       ],
       links: {
         github: "https://github.com/JAngelGC/TrafficBackend",
-        youtube: "https://www.youtube.com/watch?v=YCAIzt0Q8VA&t=275s",
+        youtube: "https://www.youtube.com/watch?v=YCAIzt0Q8VA",
         page: "https://frontend-traffic.mybluemix.net/",
       },
     },
@@ -102,7 +102,7 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       ],
       links: {
         github: "https://github.com/Carlos24Rz/Construccion_Software",
-        youtube: "https://www.youtube.com/watch?v=4QP1qdpOPkk&t=45s",
+        youtube: "https://www.youtube.com/watch?v=4QP1qdpOPkk",
       },
     },
     {
@@ -127,7 +127,7 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       ],
       links: {
         github: "https://github.com/Carlos24Rz/AlertaCan",
-        youtube: "https://www.youtube.com/watch?v=gRcupGrYmlw&t=68s",
+        youtube: "https://www.youtube.com/watch?v=gRcupGrYmlw",
       },
     },
     {
