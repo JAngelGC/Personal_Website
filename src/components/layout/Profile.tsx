@@ -51,11 +51,17 @@ const Profile: React.FC<{ classesProps: string }> = (props) => {
         </div>
 
         <div className={classes["container-skills"]}>
-          <Span text="Frontend" />
-          <Span text="Python" />
+          <Span text="Javascript" />
+          <Span text="Python 3" />
           <Span text="C++" />
-          <Span text="React Js" />
-          <Span text="Node Js" />
+          <Span text="SQL" />
+          <Span text="Typescript" />
+          <hr className={classes["separator"]} />
+          <Span text="React.js" />
+          <Span text="Node.js" />
+          <Span text="Next.js" />
+          <Span text="Git" />
+          <Span text="Github" />
           <Span text="MongoDB" />
         </div>
       </section>

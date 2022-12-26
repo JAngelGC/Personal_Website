@@ -28,7 +28,7 @@
 }
 
 .container-persona-info img {
-  width: 100px;
+  width: 90px;
   border-radius: 100%;
 
   border: 1px solid #2d2d2d;
@@ -52,8 +52,10 @@
 }
 
 .container-social-networks {
-  margin: var(--margin-up-down) 0;
-  height: 7.5rem;
+  /* margin: var(--margin-up-down) 0; */
+  margin: 2rem 0;
+  /* height: 7.5rem; */
+  padding: 1rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -65,8 +67,8 @@
 }
 
 .container-social-networks .container-icon {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 4.2rem;
+  height: 4.2rem;
 
   border-radius: 100%;
   border: 1px solid var(--main-border-color);
@@ -99,9 +101,19 @@
   padding: 1rem;
 }
 
+.container-skills .separator {
+  width: 90%;
+  height: 0.05rem;
+  border: none;
+  color: var(--main-border-color);
+  background-color: var(--main-border-color);
+  margin: 1rem 0;
+}
+
 .container-skills span {
-  margin: 1.5rem 1rem;
+  margin: 0.5rem 0.5rem;
   padding: 0.75rem 1rem;
+  font-size: var(--fs-small-small-text);
 }
 
 /**************************/
@@ -118,9 +130,7 @@
   }
 
   .container-skills span {
-    font-weight: 600;
-    margin: 1rem 1rem;
-    padding: 1rem 1.5rem;
+    font-size: var(--fs-small-text);
   }
 }
 
