@@ -6,9 +6,9 @@ type ProjectContextObj = {
   date: string;
   subtitles: string[];
   paragraph: string;
-  bulletPoints: string[];
+  bulletPoints?: string[];
   imgs: string[];
-  links: {
+  links?: {
     github?: string;
     youtube?: string;
     page?: string;
@@ -81,117 +81,128 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
     },
     {
       id: 2,
-      title: "Chatbot",
-      date: "May 2022",
-      subtitles: ["Next JS", "Firebase"],
+      title: "Rule-based chatbot",
+      date: "April 2022",
+      subtitles: ["FastApi", "SQL", "Javascript", "PHP"],
       paragraph:
-        "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
+        "A chatbot developed for Naatik, an AI company to answer their most frequently asked questions.",
       bulletPoints: [
-        "Designed from scratch a mockup in Figma",
-        "Applied responsive design best practices to adjust the content to any device",
+        "Built an API using FastAPI that connected with the SQL database.",
+        "Implemented a CRUD to modify questions and answers of the chatbot.",
+        "Used PHP sessions to create a login page so only administrators can access the CRUD.",
+        "Designed from scratch a character for the chatbot following the values and colors of the company. Added animations to the character depending on the action.",
+        "Followed the Model-View-Controller pattern to develop the functioning of the program.",
       ],
-      imgs: ["path1", "path2"],
+      imgs: [
+        "/chatbot/chatbot_1.png",
+        "/chatbot/chatbot_2.png",
+        "/chatbot/chatbot_3.png",
+        "/chatbot/chatbot_4.png",
+        "/chatbot/chatbot_5.png",
+      ],
       links: {
-        github: "https://github.com/JAngelGC",
-        youtube:
-          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
-        page: "https://www.google.com",
+        github: "https://github.com/Carlos24Rz/Construccion_Software",
+        youtube: "https://www.youtube.com/watch?v=4QP1qdpOPkk&t=45s",
       },
     },
     {
       id: 3,
       title: "Alerta Can",
-      date: "May 2022",
-      subtitles: ["Next JS", "Firebase"],
+      date: "October 2022",
+      subtitles: ["Android Studio", "Java", "XML", "Firebase"],
       paragraph:
-        "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
+        "An Android App to help users to find their missing dogs by posting it on the app.",
       bulletPoints: [
-        "Designed from scratch a mockup in Figma",
-        "Applied responsive design best practices to adjust the content to any device",
+        "Handled user authentication and user registration with Firebase Authentication service.",
+        "Used Firebase Firestore to store all users and dogs’ information.",
+        "Created screen visualization through XML files for each screen.",
+        "Implemented logic for each screen with Java.",
       ],
-      imgs: ["path1", "path2"],
+      imgs: [
+        "/alertacan/alertacan_1.png",
+        "/alertacan/alertacan_2.png",
+        "/alertacan/alertacan_3.png",
+        "/alertacan/alertacan_4.png",
+        "/alertacan/alertacan_5.png",
+      ],
       links: {
-        github: "https://github.com/JAngelGC",
-        youtube:
-          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
-        page: "https://www.google.com",
+        github: "https://github.com/Carlos24Rz/AlertaCan",
+        youtube: "https://www.youtube.com/watch?v=gRcupGrYmlw&t=68s",
       },
     },
     {
       id: 4,
       title: "Pergolas",
-      date: "May 2022",
-      subtitles: ["Next JS", "Firebase"],
+      date: "Incoming",
+      subtitles: ["Next.js", "MongoDB", "AWS"],
       paragraph:
-        "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
-      bulletPoints: [
-        "Designed from scratch a mockup in Figma",
-        "Applied responsive design best practices to adjust the content to any device",
-      ],
-      imgs: ["path1", "path2"],
-      links: {
-        github: "https://github.com/JAngelGC",
-        youtube:
-          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
-        page: "https://www.google.com",
-      },
+        "A website to promote Pergolas’ packages and services for social events.",
+      imgs: ["/pergolas/pergolas_1.png"],
     },
     {
       id: 5,
       title: "Syntax Highlighter",
-      date: "May 2022",
-      subtitles: ["Next JS", "Firebase"],
+      date: "June 2022",
+      subtitles: ["Elixir", "HTML", "CSS"],
       paragraph:
-        "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
+        "An Elixir application that highlights C++ input files to make them more readable.",
       bulletPoints: [
-        "Designed from scratch a mockup in Figma",
-        "Applied responsive design best practices to adjust the content to any device",
+        "Used regular expressions to generate tokens according to different lexical categories.",
+        "Implemented concurrency to process different files at the same time with Elixir.",
+        "Applied CSS styles to do highlight the different keywords.",
       ],
-      imgs: ["path1", "path2"],
+      imgs: [
+        "/syntax/syntax_1.png",
+        "/syntax/syntax_2.png",
+        "/syntax/syntax_3.png",
+        "/syntax/syntax_4.png",
+        "/syntax/syntax_5.png",
+      ],
       links: {
         github: "https://github.com/JAngelGC",
-        youtube:
-          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
-        page: "https://www.google.com",
       },
     },
     {
       id: 6,
       title: "Weather App",
-      date: "May 2022",
-      subtitles: ["Next JS", "Firebase"],
+      date: "January 2022",
+      subtitles: ["React", "Netlify"],
       paragraph:
-        "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
+        "A single page application that retrieves the current weather and forecast for any city.",
       bulletPoints: [
-        "Designed from scratch a mockup in Figma",
-        "Applied responsive design best practices to adjust the content to any device",
+        "Obtained the information of the forecast from Weather API.",
+        "Implemented city name autocompletion by using GeoDB Cities API.",
+        "Applied Context API to maintain the state in all the components where is need it.",
       ],
-      imgs: ["path1", "path2"],
+      imgs: [
+        "/weather/weather_1.png",
+        "/weather/weather_2.png",
+        "/weather/weather_3.png",
+        "/weather/weather_4.png",
+      ],
       links: {
-        github: "https://github.com/JAngelGC",
-        youtube:
-          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
-        page: "https://www.google.com",
+        page: "https://62d35cd48083e173512eaac9--the-great-jangelgc-site.netlify.app/",
       },
     },
     {
       id: 7,
-      title: "Pokedex",
-      date: "May 2022",
-      subtitles: ["Next JS", "Firebase"],
+      title: "Pokedex App",
+      date: "Incoming",
+      subtitles: ["React"],
       paragraph:
-        "A website created with Next.js for Reserva Ancestral, a mexican mezcal company.",
+        "A single page application that retrieves information about the different Pokemon from the videogame.",
       bulletPoints: [
-        "Designed from scratch a mockup in Figma",
-        "Applied responsive design best practices to adjust the content to any device",
+        "Handled multiple promises that contain data from the API where the information is located.",
+        "Implemented a custom hook to make HTTP requests.",
+        "Used React Router Dom to create dynamic pages.",
       ],
-      imgs: ["path1", "path2"],
-      links: {
-        github: "https://github.com/JAngelGC",
-        youtube:
-          "https://www.youtube.com/channel/UClwAiPMuPvo9Mwd0jLhbu2g?view_as=subscriber",
-        page: "https://www.google.com",
-      },
+      imgs: [
+        "/pokedex/pokedex_1.png",
+        "/pokedex/pokedex_2.png",
+        "/pokedex/pokedex_3.png",
+        "/pokedex/pokedex_4.png",
+        "/pokedex/pokedex_5.png",
+      ],
     },
   ];
 
