@@ -9,6 +9,7 @@
 
 .container-subtitles {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   margin: 3rem 0;
 }
@@ -80,5 +81,16 @@
 }
 
 .container-imgs img {
-  width: 80%;
+  /* width: 100%; */
+  width: 85%;
+  border-radius: var(--sec-border-radius);
+}
+
+/**************************/
+/* BELOW 700px /  smaller tablets */
+/**************************/
+@media (max-width: 44em) {
+  .container-imgs img {
+    width: 100%;
+  }
 }
