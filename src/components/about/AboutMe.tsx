@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section className={classes["section-about-me"]}>
       <p className={classes["text"]}>
-        I am a 5th semester student of Engineering in Computer Science at
+        I am a 6th semester student of Engineering in Computer Science at
         Tecnológico de Monterrey in Puebla, enthusiastic about how technology
         can improve all areas in our world.
       </p>
