@@ -4,22 +4,24 @@ const AboutMe = () => {
   return (
     <section className={classes["section-about-me"]}>
       <p className={classes["text"]}>
-        I am a 6th semester student of Engineering in Computer Science at
-        Tecnológico de Monterrey in Puebla, enthusiastic about how technology
-        can improve all areas in our world.
+        As a Computer Science Student at Tecnológico de Monterrey, I am
+        extremely passionate about technology and its ability to transform the
+        world around us.
       </p>
 
       <p className={classes["text"]}>
-        I have worked with many programming languages, such as Python to create
-        an API using FastAPI or Flask, C++ to master data structures, PHP to
-        connect with SQL databases, or Elixir to create concurrent applications.
-        Currently, one of my strengths is frontend development with React.js.
+        My curiosity and enthusiasm for technology have led me to explore
+        various areas within the field. I have worked on projects involving web
+        development, data analytics, and mobile app development, among others.
+        Through these experiences, I have gained a solid understanding of the
+        software development process and the importance of collaboration and
+        communication in achieving successful outcomes.
       </p>
 
       <p className={classes["text"]}>
-        Finally, as I am in college, I am a constant team player with different
-        teams throughout the semester, where I demonstrate my skills to
-        communicate my ideas and the ability to solve any issue that presents.
+        I am always eager to learn more and to take on new challenges, and I
+        look forward to connecting with others who share my passion for
+        technology.
       </p>
     </section>
   );
