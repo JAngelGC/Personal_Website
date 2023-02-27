@@ -4,6 +4,7 @@ import classes from "./Resume.module.css";
 import Button from "../ui/Button";
 import ResumeEducation from "./ResumeEducation";
 import ResumeExperience from "./ResumeExperience";
+import ResumeExtraExperience from "./ResumeExtraExperience";
 import ResumeBullets from "./ResumeBullets";
 
 const Resume = () => {
@@ -26,12 +27,28 @@ const Resume = () => {
         <h3 className={classes["title-section"]}>Experience</h3>
         <ResumeExperience
           img="ellucianLogo.png"
-          title="Ellucian"
-          // date="January 2023 - May 2023"
-          date="Incoming"
-          // text="A C++ OOP program that retrieves streaming service data and shows them
-          // to the users, allowing them to rate the content."
-          // bullets={["First sentence", "Second sentence"]}
+          title="R&D PowerCampus Intern"
+          company="Ellucian"
+          date="January 2023 - Present"
+          text=""
+          bullets={[
+            "Generated seed data from an Oracle database using PL/SQL to help in a process of data migration to a PostgreSQL database.",
+            "Created multiple functional tests using Groovy to verify the data insertion was successful.",
+            "Handled multiple Docker containers to isolate environments for the Oracle and Postgres databases.",
+          ]}
+        />
+
+        <ResumeExperience
+          img="habaneroLogo.png"
+          title="Frontend Developer"
+          date="September 2022 - Present"
+          text=""
+          company="Habanero Creative Studio"
+          bullets={[
+            "Worked directly with clients to understand their needs and objectives, and to gather requirements for website development projects.",
+            "Developed and maintained websites using frameworks such as Next.js to enhance functionality and performance.",
+            "Implemented UI/UX best practices to create intuitive, user-friendly interfaces.",
+          ]}
         />
 
         <hr className={classes["bottom-line"]} />
@@ -39,7 +56,7 @@ const Resume = () => {
 
       <div className={classes["section-experience"]}>
         <h3 className={classes["title-section"]}>Extra Academic Experience</h3>
-        <ResumeExperience
+        <ResumeExtraExperience
           img="peerLogo.png"
           title="Peer Mentor"
           date="February 2022 - Present"
@@ -49,17 +66,18 @@ const Resume = () => {
           ]}
         />
 
-        <ResumeExperience
+        <ResumeExtraExperience
           img="paeLogo.png"
           title="Programa Asesor Estudiante"
           date="August 2022 - December 2022"
           bullets={[
-            "I imparted weekly tutoring sessions on any Computer Science subject to freshman students.",
-            "I was in charge of conducting three English classes per month to primary school students.",
+            "Conducted weekly one-on-one tutoring sessions on various Computer Science topics for freshman students.",
+            "Demonstrated strong communication skills and adapted teaching style to individual needs.",
+            "Collaborated with other tutors and the department to coordinate schedules and improve program.",
           ]}
         />
 
-        <ResumeExperience
+        <ResumeExtraExperience
           img="tecbytesLogo.png"
           title="TecBytes"
           date="February 2021 - Present"
@@ -69,7 +87,7 @@ const Resume = () => {
           ]}
         />
 
-        <ResumeExperience
+        <ResumeExtraExperience
           img="werLogo.jpg"
           title="WER México"
           date="February 2021 - Present"

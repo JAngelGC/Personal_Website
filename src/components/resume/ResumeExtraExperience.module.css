@@ -1,0 +1,58 @@
+.container-experience {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+
+  padding-left: 1.5rem;
+}
+
+.img-square {
+  /* margin-left: 2rem; */
+  margin-right: 1.5rem;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  /* border-radius: var(--main-border-radius); */
+  border-radius: var(--sec-border-radius);
+}
+
+.title-experience {
+  font-size: var(--fs-mid-text);
+  /* padding: 0.2rem 0; */
+}
+
+.subtitle-experience {
+  font-size: var(--fs-mid-small-text);
+  /* padding: 0.3rem 0; */
+}
+
+.text-experience {
+  margin-top: 1rem;
+
+  font-size: var(--fs-mid-small-text);
+  padding: 0.3rem 0;
+}
+
+.text-experience-bullet {
+  margin-left: 3rem;
+  margin-top: 0rem;
+
+  /* background-color: yellowgreen; */
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .container-experience {
+    margin: 3rem 0;
+
+    padding-left: 1.5rem;
+  }
+
+  .img-square {
+    width: 45px;
+    height: 45px;
+  }
+}

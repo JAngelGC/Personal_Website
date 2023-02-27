@@ -4,19 +4,23 @@ const ResumeExperience: React.FC<{
   img: string;
   title: string;
   date: string;
+  company: string;
   text?: string;
   bullets?: string[];
 }> = (props) => {
   return (
     <div className={classes["container-experience"]}>
-      <img
-        className={classes["img-square"]}
-        src={`/static/images/resume/${props.img}`}
-        alt=""
-      />
+      <div className={classes["box-img"]}>
+        <img
+          className={classes["img-square"]}
+          src={`/static/images/resume/${props.img}`}
+          alt=""
+        />
+      </div>
       <div className={classes["box-titles"]}>
         <h3 className={classes["title-experience"]}>{props.title}</h3>
-        <p className={classes["subtitle-experience"]}>{props.date}</p>
+        <p className={classes["subtitle-company"]}>{props.company}</p>
+        <p className={classes["subtitle-date"]}>{props.date}</p>
       </div>
       <div className={classes["box-text"]}>
         <p className={classes["text-experience"]}>{props.text}</p>

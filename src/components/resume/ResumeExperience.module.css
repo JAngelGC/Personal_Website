@@ -17,14 +17,28 @@
   border-radius: var(--sec-border-radius);
 }
 
+.box-titles {
+  /* background-color: yellowgreen; */
+  /* min-width: 80%; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .title-experience {
   font-size: var(--fs-mid-text);
+
+  /* background-color: yellowgreen; */
   /* padding: 0.2rem 0; */
 }
 
-.subtitle-experience {
+.subtitle-company {
   font-size: var(--fs-mid-small-text);
-  /* padding: 0.3rem 0; */
+}
+
+.subtitle-date {
+  margin-top: 0.5rem;
+  font-size: var(--fs-small-text);
 }
 
 .text-experience {
@@ -39,4 +53,20 @@
   margin-top: 0rem;
 
   /* background-color: yellowgreen; */
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .container-experience {
+    margin: 3rem 0;
+
+    padding-left: 1.5rem;
+  }
+
+  .img-square {
+    width: 45px;
+    height: 45px;
+  }
 }

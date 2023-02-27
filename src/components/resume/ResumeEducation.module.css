@@ -38,3 +38,19 @@
   background-color: var(--main-border-color);
   border: 0;
 }
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .container-experience {
+    margin: 3rem 0;
+
+    padding-left: 1.5rem;
+  }
+
+  .img-square {
+    width: 45px;
+    height: 45px;
+  }
+}
