@@ -27,12 +27,11 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
       paragraph:
-        " A website created with Next.js for Reserva Ancestral, a mezcal company which hired me to do the job.",
+        "A fully responsive landing page for Mexican startup mezcal company Reserva Ancestral",
       bulletPoints: [
-        "Implemented pre-rendering with static generation, so it results in better performance and SEO.",
-        "Used Firebase services to store dynamic information and to save all form responses.",
-        "Designed from scratch a mockup in Figma of the website following my own ideas.",
-        "Applied responsive design best practices to adjust the content to any device.",
+        "Utilized Next.js features for pre-rendering with static generation for improved website performance and SEO.",
+        "Used Firebase services to store dynamic information and form responses.",
+        "Designed from scratch website mockup in Figma, using design principles and design trends.",
       ],
       imgs: [
         "/mezcal/mezcal_1.png",
@@ -60,11 +59,9 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       paragraph:
         "A multi-agent system that represents a solution to traffic by placing traffic lights in strategic points, while the interaction between different agents is handled.",
       bulletPoints: [
-        "Used Mesa library to create agent-based models for cars, traffic lights, and streets.",
-        "Built an API with Flask to update the system state to the frontend.",
-        "Created 3d models with Three.js to make a visualization.",
-        "Implemented an Express web server to handle HTTP requests.",
-        "Deployed in IBM Cloud through Docker containers for the frontend and backend separately.",
+        "Utilized Mesa and Three.js to build agent-based models for cars, traffic lights, and streets.",
+        "Developed a Flask API to provide real-time updates to the frontend mounted on an Express web server.",
+        "Deployed the system on IBM Cloud, utilizing Docker containers to separate the frontend and backend components.",
       ],
       imgs: [
         "/traffic/traffic_1.png",
@@ -85,13 +82,12 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       date: "April 2022",
       subtitles: ["FastApi", "SQL", "Javascript", "PHP"],
       paragraph:
-        "A chatbot developed for Naatik, an AI company to answer their most frequently asked questions.",
+        "A chatbot for AI mexican startup Naatik A.I. Solutions to answer their most frequently asked questions.",
       bulletPoints: [
-        "Built an API using FastAPI that connected with the SQL database.",
-        "Implemented a CRUD to modify questions and answers of the chatbot.",
-        "Used PHP sessions to create a login page so only administrators can access the CRUD.",
-        "Designed from scratch a character for the chatbot following the values and colors of the company. Added animations to the character depending on the action.",
+        "Built an API using FastAPI that connected with the MySQL database to store and fetch questions.",
+        "Implemented PHP sessions to create a login page so only administrators can access the CRUD to modify questions.",
         "Followed the Model-View-Controller pattern to develop the functioning of the program.",
+        "Designed from scratch a character for the chatbot following the values and colors of the company. Added animations to the character depending on the action.",
       ],
       imgs: [
         "/chatbot/chatbot_1.png",
@@ -111,12 +107,11 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       date: "October 2022",
       subtitles: ["Android Studio", "Java", "XML", "Firebase"],
       paragraph:
-        "An Android App to help users to find their missing dogs by posting it on the app.",
+        "An Android app that helps finding lost dogs posting it on the app for Kairen A.C, an NGO.",
       bulletPoints: [
-        "Handled user authentication and user registration with Firebase Authentication service.",
+        "Ensured user privacy by handling user authentication and registration through Firebase Authentication.",
         "Used Firebase Firestore to store all users and dogs’ information.",
-        "Created screen visualization through XML files for each screen.",
-        "Implemented logic for each screen with Java.",
+        "Utilized XML and Java to create visualization and implement functionality. ",
       ],
       imgs: [
         "/alertacan/alertacan_1.png",
