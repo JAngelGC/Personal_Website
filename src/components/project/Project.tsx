@@ -25,7 +25,7 @@ const Project = () => {
       <p className={classes["date"]}>{project.date}</p>
       <div className={classes["container-subtitles"]}>
         {project.subtitles.map((subtitle) => {
-          return <Span classesProps={classes["subtitle"]} text={subtitle} />;
+          return <Span key={subtitle} classesProps={classes["subtitle"]} text={subtitle} />;
         })}
       </div>
 
@@ -34,7 +34,7 @@ const Project = () => {
       <ul className={classes["container-bullets"]}>
         {project.bulletPoints &&
           project.bulletPoints.map((bullet) => {
-            return <li>{bullet}</li>;
+            return <li key={bullet} >{bullet}</li>;
           })}
       </ul>
 
@@ -47,6 +47,7 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={classes["container-link"]}
+                key={value}
               >
                 <Span classesProps={classes["link"]} text={value} />
               </a>
@@ -65,7 +66,7 @@ const Project = () => {
 
       <div className={classes["container-imgs"]}>
         {project.imgs.map((img) => {
-          return <img src={`/static/images/projects/${img}`} alt="" />;
+          return <img key={img} src={`/static/images/projects/${img}`} alt="" />;
         })}
       </div>
     </section>

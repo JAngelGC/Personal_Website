@@ -6,7 +6,7 @@ const ResumeBullets: React.FC<{ bullets: string[] }> = (props) => {
       {props.bullets.map((bullet) => {
         return (
           <li
-            className={`${classes["text-experience"]} ${classes["text-experience-bullet"]}`}
+            key={bullet} className={`${classes["text-experience"]} ${classes["text-experience-bullet"]}`}
           >
             {bullet}
           </li>

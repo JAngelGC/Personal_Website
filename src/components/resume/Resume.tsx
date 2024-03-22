@@ -25,11 +25,38 @@ const Resume = () => {
 
       <div className={classes["section-experience"]}>
         <h3 className={classes["title-section"]}>Experience</h3>
+
+        <ResumeExperience
+          img="oracleLogo.jpg"
+          title="Software Engineer Intern"
+          company="Oracle"
+          date="June 2023 - Present"
+          text=""
+          bullets={[
+            "Implemented a Python3 locking module compatible with NFS, currently utilized in 20+ scripts within the team repository. It supports file, process, and thread locking, including both shared and exclusive lock capabilities.",
+            "Designed 18+ Pytest tests for the locking module, each varying process/thread count within clusters to evaluate functionality across usage scenarios.",
+            "Migrated 15+ Python 3 scripts used for database maintenance, including backups, log file cleaning, and health checks.",
+          ]}
+        />
+
+        <ResumeExperience
+          img="mlhLogo.jpg"
+          title="Software Engineer Fellow"
+          company="MLH Fellowship"
+          date="May 2023 - July 2023"
+          text=""
+          bullets={[
+            "Worked with a diverse team of 10+ international members on developing a resume builder application, integrating a feature to download resumes in PDF format.",
+            "Collaborated with a Meta Software Engineer to gather detailed requirements for a speech-to-text application integrated with the OpenAI API.",
+            "Laid the groundwork for the speech-to-text application using Next.js for the frontend and Firebase for storing conversation history.",
+          ]}
+        />
+
         <ResumeExperience
           img="ellucianLogo.png"
           title="R&D PowerCampus Intern"
           company="Ellucian"
-          date="January 2023 - Present"
+          date="January 2023 - July 2023"
           text=""
           bullets={[
             "Generated seed data from an Oracle database using PL/SQL to help in a process of data migration to a PostgreSQL database.",
@@ -41,9 +68,9 @@ const Resume = () => {
         <ResumeExperience
           img="habaneroLogo.png"
           title="Frontend Developer"
-          date="September 2022 - Present"
+          date="September 2022 - July 2023"
           text=""
-          company="Habanero Creative Studio"
+          company="Habanero Marketing"
           bullets={[
             "Worked directly with clients to understand their needs and objectives, and to gather requirements for website development projects.",
             "Developed and maintained websites using frameworks such as Next.js to enhance functionality and performance.",
@@ -59,7 +86,7 @@ const Resume = () => {
         <ResumeExtraExperience
           img="peerLogo.png"
           title="Peer Mentor"
-          date="February 2022 - Present"
+          date="February 2022 - August 2023"
           bullets={[
             "Member of the Peer Mentor Program, which supports freshmen students to adapt to college life.",
             "I’m in charge of 15 students and I help them in whatever I can, including programming classes.",
@@ -80,7 +107,7 @@ const Resume = () => {
         <ResumeExtraExperience
           img="tecbytesLogo.png"
           title="TecBytes"
-          date="February 2021 - Present"
+          date="February 2021 - December 2022"
           bullets={[
             "Group in charge of developing web projects to achieve a significant impact inside and outside the student community.",
             "As a member, recently I was responsible for designing and implementing the distinct pages for the departments in TecBytes.",
@@ -90,7 +117,7 @@ const Resume = () => {
         <ResumeExtraExperience
           img="werLogo.jpg"
           title="WER México"
-          date="February 2021 - Present"
+          date="February 2021 - May 2022"
           bullets={[
             "High-school robotics team. In the regional tournament, my team won our pass to the national.",
             "I worked as the leader of my team, reviewing the code and the design of our robot.",
