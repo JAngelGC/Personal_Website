@@ -21,14 +21,14 @@ const Profile: React.FC<{ classesProps: string }> = (props) => {
         </div>
 
         <div className={classes["container-social-networks"]}>
-          <p className={classes["container-icon"]} onClick={emailToHandler}>
+          <div className={classes["container-icon"]} onClick={emailToHandler}>
             <div className={classes["icon-social-network"]}>
               <img src="/static/icons/email.svg" alt="" />
             </div>
-          </p>
+          </div>
 
           <a
-            href="https://www.linkedin.com/in/j-angel-gonzalez/"
+            href="https://www.linkedin.com/in/angel-gc/"
             target="_blank"
             rel="noopener noreferrer"
             className={classes["container-icon"]}
@@ -51,12 +51,13 @@ const Profile: React.FC<{ classesProps: string }> = (props) => {
         </div>
 
         <div className={classes["container-skills"]}>
-          <Span text="Javascript" />
           <Span text="Python 3" />
+          <Span text="Javascript" />
           <Span text="C++" />
           <Span text="SQL" />
           <Span text="Typescript" />
           <hr className={classes["separator"]} />
+          <Span text="Pytest" />
           <Span text="React.js" />
           <Span text="Node.js" />
           <Span text="Next.js" />

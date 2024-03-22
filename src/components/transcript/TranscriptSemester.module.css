@@ -11,6 +11,10 @@
   font-size: var(--fs-mid-text);
 
   font-weight: 600;
+  text-align: center;
+  /* background-color: yellowgreen; */
+  width: 100%;
+  margin: 0 0;
 
   /* background-color: turquoise; */
 }

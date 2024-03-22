@@ -23,6 +23,28 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
   const portfolioArray: ProjectContextObj[] = [
     {
       id: 0,
+      title: "Code4U",
+      date: "January 2023",
+      subtitles: ["Node.js", "PostgreSQL", "Typescript", "Docker", "React"],
+      paragraph:
+        "An educational web platform focusing on programming instruction, including class administration and assignment management.",
+      bulletPoints: [
+        "Created a Node.js API with 20+ endpoints for PostgreSQL database interactions, with JWT authentication for select routes.",
+        "Collaborated in a Scrum-based agile development environment."
+      ],
+      imgs: [
+        "/code4u/code4u_1.png",
+        "/code4u/code4u_2.png",
+        "/code4u/code4u_3.png",
+        "/code4u/code4u_4.png",
+        "/code4u/code4u_5.png",
+      ],
+      links: {
+        github: "https://github.com/Code4UHub",
+      },
+    },
+    {
+      id: 1,
       title: "Mezcal Website",
       date: "May 2022",
       subtitles: ["Next JS", "Firebase"],
@@ -45,7 +67,7 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       },
     },
     {
-      id: 1,
+      id: 2,
       title: "Traffic simulator",
       date: "December 2022",
       subtitles: [
@@ -77,7 +99,7 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       },
     },
     {
-      id: 2,
+      id: 3,
       title: "Rule-based chatbot",
       date: "April 2022",
       subtitles: ["FastApi", "SQL", "Javascript", "PHP"],
@@ -102,7 +124,7 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
       },
     },
     {
-      id: 3,
+      id: 4,
       title: "Alerta Can",
       date: "October 2022",
       subtitles: ["Android Studio", "Java", "XML", "Firebase"],
@@ -124,15 +146,6 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         github: "https://github.com/Carlos24Rz/AlertaCan",
         youtube: "https://www.youtube.com/watch?v=gRcupGrYmlw",
       },
-    },
-    {
-      id: 4,
-      title: "Pergolas",
-      date: "Incoming",
-      subtitles: ["Next.js", "MongoDB", "AWS"],
-      paragraph:
-        "A website to promote Pergolas’ packages and services for social events.",
-      imgs: ["/pergolas/pergolas_1.png"],
     },
     {
       id: 5,
@@ -179,26 +192,26 @@ const PortfolioContextProvider: React.FC<Props> = (props) => {
         page: "https://62d35cd48083e173512eaac9--the-great-jangelgc-site.netlify.app/",
       },
     },
-    {
-      id: 7,
-      title: "Pokedex App",
-      date: "Incoming",
-      subtitles: ["React"],
-      paragraph:
-        "A single page application that retrieves information about the different Pokemon from the videogame.",
-      bulletPoints: [
-        "Handled multiple promises that contain data from the API where the information is located.",
-        "Implemented a custom hook to make HTTP requests.",
-        "Used React Router Dom to create dynamic pages.",
-      ],
-      imgs: [
-        "/pokedex/pokedex_1.png",
-        "/pokedex/pokedex_2.png",
-        "/pokedex/pokedex_3.png",
-        "/pokedex/pokedex_4.png",
-        "/pokedex/pokedex_5.png",
-      ],
-    },
+    // {
+    //   id: 8,
+    //   title: "Pokedex App",
+    //   date: "Incoming",
+    //   subtitles: ["React"],
+    //   paragraph:
+    //     "A single page application that retrieves information about the different Pokemon from the videogame.",
+    //   bulletPoints: [
+    //     "Handled multiple promises that contain data from the API where the information is located.",
+    //     "Implemented a custom hook to make HTTP requests.",
+    //     "Used React Router Dom to create dynamic pages.",
+    //   ],
+    //   imgs: [
+    //     "/pokedex/pokedex_1.png",
+    //     "/pokedex/pokedex_2.png",
+    //     "/pokedex/pokedex_3.png",
+    //     "/pokedex/pokedex_4.png",
+    //     "/pokedex/pokedex_5.png",
+    //   ],
+    // },
   ];
 
   return (

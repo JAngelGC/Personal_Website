@@ -6,7 +6,7 @@ import { PortfolioContext } from "../store/portfolio-context";
 
 const PortfolioGrid = () => {
   const portfolioCtx = useContext(PortfolioContext);
-  console.log(portfolioCtx);
+  // console.log(portfolioCtx);
 
   return (
     <div className={classes["container-projects"]}>

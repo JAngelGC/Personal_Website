@@ -12,25 +12,18 @@ const TranscriptSemester: React.FC<{
 }> = (props) => {
   return (
     <table className={classes["table-semester"]}>
-      <caption className={classes["table-title"]}>{props.title}</caption>
-
-      <tr>
-        <td className={classes["table-subject"]}>
-          Computational Thinking and Programming{" "}
-        </td>
-        <td className={classes["table-grade"]}>97</td>
-        <td className={classes["table-credits"]}>3</td>
-      </tr>
-
-      {props.subjects.map((subject) => {
-        return (
-          <tr>
-            <td className={classes["table-subject"]}>{subject.name}</td>
-            <td className={classes["table-grade"]}>{subject.grade}</td>
-            <td className={classes["table-credits"]}>{subject.credits}</td>
-          </tr>
-        );
-      })}
+      <caption className={classes["table-title"]}>{props.title}</caption> 
+        <tbody>
+        {props.subjects.map((subject) => {
+          return (
+            <tr key={subject.name}>
+              <td className={classes["table-subject"]}>{subject.name}</td>
+              <td className={classes["table-grade"]}>{subject.grade}</td>
+              <td className={classes["table-credits"]}>{subject.credits}</td>
+            </tr>
+          );
+        })}
+      </tbody>
     </table>
   );
 };

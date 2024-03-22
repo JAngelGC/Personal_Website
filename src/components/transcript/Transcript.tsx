@@ -31,42 +31,126 @@ const Transcript = () => {
         <p className={classes["credits"]}>Credits</p>
       </div>
 
+
       <TranscriptSemester
-        title="1st Semester (August - December 2020)"
+        title="7th Semester (August - December 2023)"
         subjects={[
           {
-            name: "Computational Thinking and Programming",
+            name: "Internship",
+            grade: 100,
+            credits: 18,
+          }
+        ]}
+      />
+
+      <hr className={classes["bottom-line"]} />
+
+
+      <TranscriptSemester
+        title="6th Semester (February - June 2023)"
+        subjects={[
+          {
+            name: "Software Development",
+            grade: 98,
+            credits: 18,
+          }
+        ]}
+      />
+
+      <hr className={classes["bottom-line"]} />
+
+      <TranscriptSemester
+        title="5th Semester (August - December 2022)"
+        subjects={[
+          {
+            name: "Integration of Computer Security in Networks and Software Systems",
+            grade: 99,
+            credits: 8,
+          },
+          {
+            name: "Modeling of Multi-Agent Systems with Computer Graphics",
+            grade: 99,
+            credits: 4,
+          },
+          {
+            name: "Analysis and Design of Advanced Algorithms",
+            grade: 100,
+            credits: 3,
+          },
+          {
+            name: "Argumentation, Debate, and the Art of Public Speaking",
+            grade: 100,
+            credits: 3,
+          },
+        ]}
+      />
+
+      <hr className={classes["bottom-line"]} />
+
+      <TranscriptSemester
+        title="4th Semester (February - June 2022)"
+        subjects={[
+          {
+            name: "Software Construction and Decision Making",
+            grade: 99,
+            credits: 8,
+          },
+          {
+            name: "Device Interconnection",
+            grade: 100,
+            credits: 4,
+          },
+          {
+            name: "Implementation of Computational Methods",
             grade: 97,
             credits: 3,
           },
           {
-            name: "Engineering and Science Modeling",
-            grade: 99,
+            name: "Post-humanism, Ethics, and Technology",
+            grade: 98,
             credits: 3,
           },
+        ]}
+      />
+
+      <hr className={classes["bottom-line"]} />
+
+      <TranscriptSemester
+        title="3rd Semester (August - December 2021)"
+        subjects={[
           {
-            name: "Computational Modeling of Movement",
+            name: "Analysis of Differential Equations",
             grade: 100,
-            credits: 3,
-          },
-          {
-            name: "Computational Modeling Applying Conservation Law",
-            grade: 95,
-            credits: 3,
-          },
-          {
-            name: "Mathematical Thinking I",
-            grade: 99,
-            credits: 2,
-          },
-          {
-            name: "Analysis of the Structure and Properties of Matter",
-            grade: 91,
             credits: 1,
           },
           {
-            name: "Ecological Processes for Human Development",
+            name: "Implementation of the Internet of Things",
+            grade: 97,
+            credits: 6,
+          },
+          {
+            name: "Programming of Data Structures and Fundamental Algorithms",
+            grade: 97,
+            credits: 3,
+          },
+          {
+            name: "Modeling of Minimum Systems and Computational Architectures",
             grade: 100,
+            credits: 1,
+          },
+          {
+            name: "Analysis of Software Requirements",
+            grade: 98,
+            credits: 1,
+          },
+          {
+            name: "Exploration Topic",
+            grade: 100,
+            credits: 3,
+          },
+          {
+            name: "Geopolitics and Technological Changes: The Future Today",
+            grade: 98,
             credits: 3,
           },
         ]}
@@ -128,41 +212,41 @@ const Transcript = () => {
       <hr className={classes["bottom-line"]} />
 
       <TranscriptSemester
-        title="3rd Semester (August - December 2021)"
+        title="1st Semester (August - December 2020)"
         subjects={[
           {
-            name: "Analysis of Differential Equations",
-            grade: 100,
-            credits: 1,
-          },
-          {
-            name: "Implementation of the Internet of Things",
-            grade: 97,
-            credits: 6,
-          },
-          {
-            name: "Programming of Data Structures and Fundamental Algorithms",
+            name: "Computational Thinking and Programming",
             grade: 97,
             credits: 3,
           },
           {
-            name: "Modeling of Minimum Systems and Computational Architectures",
-            grade: 100,
-            credits: 1,
+            name: "Engineering and Science Modeling",
+            grade: 99,
+            credits: 3,
           },
           {
-            name: "Analysis of Software Requirements",
-            grade: 98,
-            credits: 1,
-          },
-          {
-            name: "Exploration Topic",
+            name: "Computational Modeling of Movement",
             grade: 100,
             credits: 3,
           },
           {
-            name: "Geopolitics and Technological Changes: The Future Today",
-            grade: 98,
+            name: "Computational Modeling Applying Conservation Law",
+            grade: 95,
+            credits: 3,
+          },
+          {
+            name: "Mathematical Thinking I",
+            grade: 99,
+            credits: 2,
+          },
+          {
+            name: "Analysis of the Structure and Properties of Matter",
+            grade: 91,
+            credits: 1,
+          },
+          {
+            name: "Ecological Processes for Human Development",
+            grade: 100,
             credits: 3,
           },
         ]}
@@ -170,61 +254,13 @@ const Transcript = () => {
 
       <hr className={classes["bottom-line"]} />
 
-      <TranscriptSemester
-        title="4th Semester (February - June 2022)"
-        subjects={[
-          {
-            name: "Software Construction and Decision Making",
-            grade: 99,
-            credits: 8,
-          },
-          {
-            name: "Device Interconnection",
-            grade: 100,
-            credits: 4,
-          },
-          {
-            name: "Implementation of Computational Methods",
-            grade: 97,
-            credits: 3,
-          },
-          {
-            name: "Post-humanism, Ethics, and Technology",
-            grade: 98,
-            credits: 3,
-          },
-        ]}
-      />
 
-      <hr className={classes["bottom-line"]} />
 
-      <TranscriptSemester
-        title="5th Semester (August - December 2022)"
-        subjects={[
-          {
-            name: "Integration of Computer Security in Networks and Software Systems",
-            grade: 99,
-            credits: 8,
-          },
-          {
-            name: "Modeling of Multi-Agent Systems with Computer Graphics",
-            grade: 99,
-            credits: 4,
-          },
-          {
-            name: "Analysis and Design of Advanced Algorithms",
-            grade: 100,
-            credits: 3,
-          },
-          {
-            name: "Argumentation, Debate, and the Art of Public Speaking",
-            grade: 100,
-            credits: 3,
-          },
-        ]}
-      />
 
-      <hr className={classes["bottom-line"]} />
+
+
+
+
     </section>
   );
 };

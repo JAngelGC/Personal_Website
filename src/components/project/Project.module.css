@@ -58,18 +58,28 @@
   transition: all 0.1s ease-in;
 }
 
+.container-links .container-link .link:active {
+  text-decoration: none;
+}
+
 .container-links .container-link .link:hover {
   background: rgba(209, 226, 49, 0.15);
 }
 
-.container-links .link-github {
+.container-links a.container-link:visited {
+  background-color: yellowgreen;
+  text-decoration: none;
+  /* font-size: 48px; */
 }
 
-.container-links .link-youtube {
-}
+.container-links .link-github {}
 
-.container-links .link-page {
-}
+.container-links .link-youtube {}
+
+.container-links .link-page {}
+
+
+
 
 .container-imgs {
   width: 100%;
@@ -87,6 +97,8 @@
   width: 85%;
   border-radius: var(--sec-border-radius);
 }
+
+
 
 /**************************/
 /* BELOW 700px /  smaller tablets */

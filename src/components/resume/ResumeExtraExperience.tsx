@@ -25,7 +25,7 @@ const ResumeExtraExperience: React.FC<{
             props.bullets.map((bullet) => {
               return (
                 <li
-                  className={`${classes["text-experience"]} ${classes["text-experience-bullet"]}`}
+                  key={bullet} className={`${classes["text-experience"]} ${classes["text-experience-bullet"]}`}
                 >
                   {bullet}
                 </li>

@@ -8,4 +8,11 @@
 
   color: #158bcb;
   background: rgba(20, 129, 186, 0.075);
+
+
+
+}
+
+.span:visited {
+  text-decoration: none;
 }
